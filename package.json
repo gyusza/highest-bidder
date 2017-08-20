@@ -1,0 +1,23 @@
+{
+  "name": "highest-bidder",
+  "version": "0.0.1",
+  "description": "Site that displays the text set by the highest bidder",
+  "private": true,
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprusr/highest-bidder.git"
+  },
+  "author": "sprusr <scott@spru.sr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprusr/highest-bidder/issues"
+  },
+  "homepage": "https://github.com/sprusr/highest-bidder#readme",
+  "devDependencies": {
+    "truffle": "^3.4.9",
+    "truffle-default-builder": "^2.0.0"
+  }
+}
