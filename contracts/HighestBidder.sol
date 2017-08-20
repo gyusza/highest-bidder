@@ -15,6 +15,7 @@ contract HighestBidder {
 		require(msg.value > currentPrice);
 		currentText = newText;
 		currentPrice = msg.value;
+		owner.transfer(msg.value);
 		return true;
 	}
 

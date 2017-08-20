@@ -4,7 +4,8 @@
   "description": "Site that displays the text set by the highest bidder",
   "private": true,
   "scripts": {
-    "test": "truffle test"
+    "test": "truffle test",
+    "deploy": "swarm --recursive --defaultpath build/index.html --bzzapi http://localhost:8500 up build"
   },
   "repository": {
     "type": "git",
